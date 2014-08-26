@@ -1,0 +1,114 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration:none;
+}
+a:link {
+	color:black;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color:blue;
+}
+.header {
+	text-align:right;
+	padding:0px;
+	font-size:18px;
+}
+ul {
+	list-style:none;
+	text-decoration:none;
+}
+li {
+	display:inline-block;
+}
+.signin-button {
+	background-color:#5882fa;
+}
+.logo {
+	text-align:center;
+	margin-top:100px;
+}
+.search {
+	text-align:center;
+}
+.search-actions {
+	display:block;
+	margin-top:20px;
+}
+.search-buttons {
+	margin-top:10px;
+	background-image: ("imgages/micrphone.png");
+}
+.search-buttons input {
+	width:500px;
+	height:30px;
+}
+.footer {
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color:#d8d8d8;
+	height:40px;
+}
+.business-nav {
+	display:inline-block;
+	float:left;
+	width:50%;
+	margin-top:10px;
+}
+.personal-nav {
+	display:inline-block;
+	float:left;
+	text-align:right;
+	width:50%;
+	margin-top:10px;
+}
